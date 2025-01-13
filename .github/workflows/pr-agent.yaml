@@ -29,6 +29,6 @@ jobs:
           PR_DESCRIPTION.PUBLISH_LABELS: true
 
           CONFIG.ENABLE_CUSTOM_LABELS: true
-          CUSTOM_LABELS.BUG.DESCRIPTION: "Fixes a bug in the code"
-          CUSTOM_LABELS.ENHANCEMENT.DESCRIPTION: "Adds new features or modifies existing ones"
-          CUSTOM_LABELS.CHORE.DESCRIPTION: "Other changes that do not fit in any of the above categories"
+          CUSTOM_LABELS.bug.DESCRIPTION: "Something isn't working"
+          CUSTOM_LABELS.enhancement.DESCRIPTION: "New feature or request"
+          CUSTOM_LABELS.chore.DESCRIPTION: "Other changes that do not fit in any of the above categories"
