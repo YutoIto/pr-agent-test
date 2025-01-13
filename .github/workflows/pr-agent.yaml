@@ -28,7 +28,7 @@ jobs:
           PR_DESCRIPTION.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
           PR_DESCRIPTION.PUBLISH_LABELS: true
 
-          # CONFIG.ENABLE_CUSTOM_LABELS: true
-          # CUSTOM_LABELS.bug.DESCRIPTION: "Fixes a bug in the code"
+          CONFIG.ENABLE_CUSTOM_LABELS: true
+          CUSTOM_LABELS.BUG.DESCRIPTION: "Use when PR Type is a 'Bug fix'"
           # CUSTOM_LABELS.enhancement.DESCRIPTION: "Adds new features or modifies existing ones"
-          # CUSTOM_LABELS.chore.DESCRIPTION: "Other changes that do not fit in any of the above categories"
+          CUSTOM_LABELS.CHORE.DESCRIPTION: "Other changes that do not fit in any of the above categories"
