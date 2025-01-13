@@ -2,7 +2,7 @@ name: pr-agent
 
 on:
   pull_request:
-    types: [opened, reopened, ready_for_review]
+    types: [opened, reopened, synchronize]
 
 permissions:
   issues: write
@@ -26,3 +26,8 @@ jobs:
 
           # PR_REVIEWER.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
           PR_DESCRIPTION.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
+
+          CONFIG.ENABLE_CUSTOM_LABELS: true
+          CUSTOM_LABELS.BUG.DESCRIPTION: "Fixes a bug in the code"
+          CUSTOM_LABELS.ENHANCEMENT.DESCRIPTION: "Adds new features or modifies existing ones"
+          CUSTOM_LABELS.CHORE.DESCRIPTION: "Other changes that do not fit in any of the above categories"
