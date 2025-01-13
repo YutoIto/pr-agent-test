@@ -26,6 +26,7 @@ jobs:
 
           # PR_REVIEWER.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
           PR_DESCRIPTION.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
+          PR_DESCRIPTION.PUBLISH_LABELS: true
 
           CONFIG.ENABLE_CUSTOM_LABELS: true
           CUSTOM_LABELS.BUG.DESCRIPTION: "Fixes a bug in the code"
