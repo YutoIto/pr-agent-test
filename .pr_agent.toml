@@ -1,0 +1,10 @@
+[github_action_config]
+auto_review=true
+auto_describe=true
+auto_improve=true
+
+[pr_reviewer]
+extra_instructions="Please use Japanese."
+
+[pr_description]
+extra_instructions="Please use Japanese."
