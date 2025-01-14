@@ -29,7 +29,7 @@ jobs:
           PR_DESCRIPTION.PUBLISH_LABELS: true
           PR_DESCRIPTION.CUSTOM_LABELS: ["bug", "enhancement", "chore"]
 
-          # CONFIG.ENABLE_CUSTOM_LABELS: true
+          CONFIG.ENABLE_CUSTOM_LABELS: true
           # CUSTOM_LABELS.bug.DESCRIPTION: "Fixes a bug in the code"
           # CUSTOM_LABELS.enhancement.DESCRIPTION: "Adds new features or modifies existing ones"
           # CUSTOM_LABELS.chore.DESCRIPTION: "Other changes that do not fit in any of the above categories"
