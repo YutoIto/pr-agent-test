@@ -7,4 +7,9 @@ describe('greet function', () => {
     const result = greet('TypeScript');
     expect(result).toBe('Hello, TypeScript!');
   });
+
+  it('should handle an empty string input', () => {
+    const result = greet('');
+    expect(result).toBe('Hello, !');
+  });
 });
