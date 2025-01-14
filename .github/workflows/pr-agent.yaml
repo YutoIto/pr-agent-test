@@ -2,7 +2,7 @@ name: pr-agent
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [opened, reopened]
 
 permissions:
   issues: write
@@ -31,6 +31,8 @@ jobs:
 
           PR_DESCRIPTION.EXTRA_INSTRUCTIONS: "Please use Japanese in descriptions."
           PR_DESCRIPTION.PUBLISH_LABELS: true
+
+          PR_CODE_SUGGESTIONS.NUM_CODE_SUGGESTIONS: 4
 
           # CONFIG.ENABLE_CUSTOM_LABELS: true
           # CUSTOM_LABELS.bug.DESCRIPTION: "Fixes a bug in the code"
