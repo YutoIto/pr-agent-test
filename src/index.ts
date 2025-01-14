@@ -2,4 +2,5 @@ const greet = (name: string): string => {
   return `Hello, ${name}!`;
 };
 
-console.log(greet("baby"));
+// greetの出力
+console.log(greet("boy"));
